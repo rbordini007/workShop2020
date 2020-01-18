@@ -38,8 +38,6 @@ public class DB {
 		}
 	}
 	
-	
-	
 	private static Properties loadProperties() {
 		try (FileInputStream fs = new FileInputStream("db.properties")){
 			Properties props = new Properties();
